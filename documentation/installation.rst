@@ -1,7 +1,7 @@
 Installation
 ======================================
 
-Pecos requires Python (tested on 3.9, 3.10, 3.11, and 3.12) along with several Python 
+Pecos requires Python (tested on 3.10, 3.11, 3.12, and 3.13) along with several Python 
 package dependencies.  Information on installing and using Python can be found at 
 https://www.python.org/.  Python distributions, such as Anaconda,
 are recommended to manage the Python interface.  
