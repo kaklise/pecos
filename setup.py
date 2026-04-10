@@ -15,7 +15,7 @@ URL = 'https://github.com/sandialabs/pecos'
 setuptools_kwargs = {
     'zip_safe': False,
     'install_requires': ['numpy >= 1.10.4',
-                         'pandas >= 0.18.0',
+                         'pandas >= 0.18.0,<3.0',
                          'matplotlib',
                          'jinja2',
                          'pytest'],

@@ -1,7 +1,7 @@
 Installation
 ======================================
 
-Pecos requires Python (tested on 3.9, 3.10, 3.11, and 3.12) along with several Python 
+Pecos requires Python (tested on 3.10, 3.11, 3.12, and 3.13) along with several Python 
 package dependencies.  Information on installing and using Python can be found at 
 https://www.python.org/.  Python distributions, such as Anaconda,
 are recommended to manage the Python interface.  
@@ -30,7 +30,8 @@ Developers can install the main branch of Pecos from the GitHub repository using
 
 	git clone https://github.com/sandialabs/pecos
 	cd pecos
-	python setup.py install
+	python -m pip install -e .
+	pip install -r requirements.txt
 
 To install Pecos using a downloaded zip file, go to https://github.com/sandialabs/pecos, 
 select the "Clone or download" button and then select "Download ZIP".
@@ -40,7 +41,8 @@ The software can then be installed by unzipping the file and running setup.py::
 
 	unzip pecos-main.zip
 	cd pecos-main
-	python setup.py install
+	python -m pip install -e .
+	pip install -r requirements.txt
 
 To use Pecos, import the package from a Python console::
 
